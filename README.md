@@ -1,4 +1,14 @@
 # ignishealth_task
+INSTALLATION
+
+git clone https://github.com/osamaliaqat/ignishealth_task.git
+
+python3 manage.py makemigrations
+
+python3 manage.py migrate 
+
+For file upload:
+curl -X POST -d 'file path/url' --header 'Content-Type: application/json' http://127.0.0.1:8000/upload
 
 API Endpoints :
 
